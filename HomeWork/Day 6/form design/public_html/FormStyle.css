@@ -1,0 +1,44 @@
+#container{
+    width: 90%;
+    height: auto;
+    background: #999999;
+    margin: 0 auto;
+}
+#mheader{
+    width: 100%;
+    height: auto;
+    background: #66ffff;
+    float: left
+}
+#mbody{
+    width: 100%;
+    height: auto;
+    background: #009999;
+    float: left
+}
+#bleft{
+    width: 20%;
+    height: auto;
+    background: #ffff66;
+    float: left
+}
+#bright{
+    width: 80%;
+    height: auto;
+    background: #006633;
+    float: left
+}
+.formcontainer{
+    width: 100%;
+    height: auto; 
+}
+.labels{
+    width: 25%;
+    height: auto; 
+    float: left;
+}
+.fields{
+    width: 75%;
+    height: auto; 
+    float: left;
+}

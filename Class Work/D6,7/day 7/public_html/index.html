@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Example</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+    </head>
+    <body>
+        <div id="maincontainer">
+            <div id="header">Header 
+            </div>
+            <div id="body">
+                <div id="bodyleft">Body Left</div>
+                <div id="bodyright">
+                <fieldset>
+                    <legend>Registration</legend>
+                    <form method="post" action="#">
+                        <label>First Name</label>
+                        <input type="text" name="firstname" id="firstname" placeholder="Enter First Name"/>
+                        <br/>
+
+                        <label>Last Name</label>
+                        <input type="text" name="lastname" id="lastname" placeholder="Enter Last Name"/>
+                        <br/>
+
+                        <label>Gender</label>
+                        <input type="radio" name="gender" value="male"checked="checked"/> Male
+                        <input type="radio" name="gender" value="female"/> Female
+                        <br/>
+
+                        <label>Hobby</label>
+                        <input type="checkbox" name="reading" value="reading" checked="checked" />Reading
+                        <input type="checkbox" name="coding" value="coding" />Coding
+                        <input type="checkbox" name="playing" value="playing" checked="checked"/>Playing
+                        <input type="checkbox" name="running" value="running" />Running
+                        <input type="checkbox" name="cycling" value="cycling" checked="checked"/>Cycling
+                        <br/>
+                        
+                        <label>Country:</label>
+                        <select name="country">
+                            <option>Select a Country</option>
+                            <option>Bangladesh</option>
+                            <option>Russia</option>
+                            <option>China</option>
+                            <option>Iran</option>
+                            <option>Turkey</option>
+                            <option>Libia</option>
+                        </select>
+                        <br/>
+                        
+                        <label>Message</label>
+                        <textarea name="msg" rows="5" cols="20">
+
+                        </textarea>
+                        <br/>
+                        
+                        <input type="checkbox" checked="checked" name="subscribe"/> Yes, I am current Subscribers.
+                        <br/>
+                        
+                        <input type="reset" value="Reset Form"/>
+                        <input type="submit" value="Submit"/>
+
+                    </form>
+                </fieldset>
+                </div>
+            </div>
+            <div id="footer">Footer</div>
+        </div>
+    </body>
+</html>

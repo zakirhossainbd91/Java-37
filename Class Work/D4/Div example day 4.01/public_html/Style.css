@@ -1,0 +1,54 @@
+#maincontainer{
+    width: 80%;
+    height: 400px;
+    background: #444;
+    margin: 0 auto;
+}
+#headercontainer{
+    width: 100%;
+    height: 80px;
+    background: #065;
+    margin: 0 auto;
+}
+
+#bodycontainer{
+    width: 100%;
+    height: 270px;
+    background: #038;
+    margin: 0 auto;
+}
+#bodyleft{
+    width: 25%;
+    height: 270px;
+    background: #ccc;
+    float:left;
+}
+ol{color:Green;
+    
+}
+#bodymiddle{
+    width: 50%;
+    height: 270px;
+    background: #047;
+    float:left;
+}
+#bodyright{
+    width: 25%;
+    height: 270px;
+    background: #077;
+    float:left;
+}
+#ordercolor {color:Red;
+}
+#footercontainer{
+    width: 100%;
+    height: 50px;
+    background: #444;
+    margin: 0 auto;
+}
+#copyrightcontainer{
+    width: 100%;
+    height: 50px;
+    background: #Red;
+    margin: 0 auto;
+}

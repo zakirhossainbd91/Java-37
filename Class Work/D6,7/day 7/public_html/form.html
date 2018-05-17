@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <div id="maincontainer">
+            <div id="header">
+                <h3>Student Registration form</h3>
+            </div>
+            <div id="body">
+                <div id="bodyleft">Body Left</div>
+                <div id="bodyright">
+                    <fieldset>
+                        <legend>Registration Here</legend>
+                        <form>
+                            <div class="form-container">
+                                <div class="labels"><label>First Name</label></div>
+                                <div class="fields"> <input type="text" name="firstname" id="firstname" placeholder="Enter First Name"/></div>
+                            </div>
+                            <div class="form-container">
+                                <div class="labels"> <label>Last Name</label></div>
+                                <div class="fields"> <input type="text" name="lastname" id="lastname" placeholder="Enter Last Name"/></div>
+                            </div>
+                            <div class="form-container">
+                                <div class="labels"> <label>Gender</label></div>
+                                <div class="fields"> <input type="radio" name="gender" value="male"checked="checked"/> Male
+                                    <input type="radio" name="gender" value="female"/> Female</div> 
+
+                            </div>
+                            <div class="form-container">
+                                <div class="labels"> <label>Hobby</label></div>
+                                <div class="fields"> <input type="checkbox" name="reading" value="reading" checked="checked" />Reading
+                                    <input type="checkbox" name="coding" value="coding" />Coding
+                                    <input type="checkbox" name="playing" value="playing" checked="checked"/>Playing
+                                    <input type="checkbox" name="running" value="running" />Running
+                                    <input type="checkbox" name="cycling" value="cycling" checked="checked"/>Cycling  
+
+                                </div>
+                                <div class="form-container">
+                                    <div class="labels"> <label>Country:</label></div>
+                                    <div class="fields"> 
+                                        <select name="country">
+                                            <option>Select a Country</option>
+                                            <option>Bangladesh</option>
+                                            <option>Russia</option>
+                                            <option>China</option>
+                                            <option>Iran</option>
+                                            <option>Turkey</option>
+                                            <option>Libia</option>
+                                        </select>
+                                    </div>
+
+                                </div>
+                                <div class="form-container">
+                                    <div class="labels"> <label>Message</label></div>
+                                    <div class="fields"> 
+                                        <textarea name="msg" rows="5" cols="20">
+
+                                        </textarea>
+                                    </div>
+
+                                </div>
+                                <div class="form-container">
+                                    <div class="fields"> 
+                                        <input type="checkbox" checked="checked" name="subscribe"/> Yes, I am current Subscribers.
+                                    </div>  
+                                </div>
+                                <div class="form-container">
+                                    <div class="fields"> 
+                                        <input type="reset" value="Reset Form"/>
+                                        <input type="submit" value="Submit"/>
+                                    </div>
+                                </div>
+
+                        </form>
+
+                    </fieldset>
+                </div>
+            </div>
+            <div id="footer">
+                <marquee>Please! fill up the form completely</marquee>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form 3</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <div>Form 3</div>
+        <fieldset>
+            <legend>Form2</legend>
+            <form>
+                <label>Full Name (autofocus)</label>
+                <input type="text" name="fullname" autofocus="autofocus" />
+                <br/>
+                <label>Max Length</label>
+                <input type="text" name="abc" maxlength="3"/>
+                <br/>
+                <label>Age Length</label>
+                <input type="range" name="age"/>
+                <br/>
+                <label>Date of birth,defualt</label>
+                <input type="date" name="dob"/>
+                <br/>
+                <label>date of join,dd-mm-yyyy</label>
+                <input type="datetime" name="joiningdate"/>
+                <br/>
+                <label>Full Name(auto focus)</label>
+                country code: <input type="text" name="country_code" maxlength="3"
+                                     pattern=["A-Za-z"]{3} tittle="three later country code"/>
+                <br/>
+                <label>Password</label>
+                <input type="password" name="pass"/>
+                <br/>
+                <input type="submit" value="Submit"/>
+                <input type="reset" value="Clear Form"/>
+            </form>
+        </fieldset>
+    </body>
+</html>

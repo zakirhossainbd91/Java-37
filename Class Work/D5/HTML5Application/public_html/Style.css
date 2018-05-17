@@ -1,0 +1,21 @@
+#container{
+    width:90%
+        height: 800px
+        margin: 0 auto;
+}
+#header{
+    width:100%
+        height:100px;
+    background: #ccc;
+}
+#manu{
+    width:100%
+        height:600px;
+    background: #ccc;
+}
+#footer{
+    width:100%
+        height:100px;
+    background: #065;
+}
+
