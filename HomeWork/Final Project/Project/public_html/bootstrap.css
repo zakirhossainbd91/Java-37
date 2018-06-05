@@ -6755,11 +6755,45 @@ button.close {
   }
 }
 .header{
-    background: green;
-    height: 100px;
+    background: #016938;
+   
 }
-#container{
-    width: 95%;
-   margin-left: 10pt;
+.row2{
+    width: 90%;
+    height: 35px;
+    margin-left: 45pt;
+    padding: 7px;
+    background: #006599;
+    text-align: center;
+    color: #ffffff;
+  
 }
+.row3{
+    width: 90%;
+    margin-left: 45pt;
+    height: 25px;
+    background: #D2BDA8;
+    text-align: center;
+    color: red;
+}
+.col2{
+    text-align: center;
+    color: white;
+}
+.row4{
+    width: 90%;
+    height: 400px;
+    margin-left: 45pt;   
+    background: #cccccc;
+    
+}
+div a:hover{
+    background: #999900;
+    
+    
+}
+div a{
+    color: white;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
