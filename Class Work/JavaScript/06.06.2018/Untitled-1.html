@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>function Literal</title>
+<script language="javascript">
+function converter(decNum){
+	if(decNum>=16){
+		return decNum.toString(16);
+	} else {
+		return "0"+decNum.toString(16);
+	}
+}
+var colorIt="#"+(converter(255) + converter(108) + converter(4));
+document.write(colorIt);
+</script>
+</head>
+
+<body bgcolor="ghostwhite">
+
+</body>
+</html> Object
