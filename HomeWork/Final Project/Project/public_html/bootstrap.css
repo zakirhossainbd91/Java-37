@@ -6815,8 +6815,10 @@ div a{
      width: 90%;
     margin-left: 45pt;
     height: 40px;
-    color: 
-    
+    color: white; 
+}
+.lftclm:hover{
+    background: white;
 }
 
-/*# sourceMappingURL=bootstrap.css.map */
+
