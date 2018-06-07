@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script language="javascript">
+var zoo=new Array("zebras","lions","apes","tigers")
+zoo.sort();
+var newZoo="";
+for(var counter=0;counter<zoo.length;counter++){
+	newZoo+=(zoo[counter]+"<br/>");
+	}
+	document.write("<p>Alphebetical Animals<p>"+newZoo);
+	document.write("<hr/>");
+	
+	var zoo=("3","7","9","2","11","12");
+	document.write(zoo.slice(-3));
+	//////////splice/////
+	document.write("<hr/>");
+	var countrylist=['bd','ind','butan','uk','usa'];
+	document.write(countrylist.splice(2,0,'ksa'));
+	
+	
+	
+
+
+</script>
+</body>
+</html>

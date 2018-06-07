@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<button onClick="workingwithsplice()">Click Me</button>
+<p id="display"></p>
+<script language="javascript">
+var countrylist=['bd','usa','japan','uk'];
+	document.getElementById('display').innerHTML = countrylist;
+	
+	function workingWithSplice() {
+		countrylist.splice(2,0,'germany');
+		document.getElementById('display').innerHTML = countrylist;
+		}
+
+</script>
+
+
+</body>
+</html>
