@@ -6788,7 +6788,8 @@ button.close {
     
 }
 div a:hover{
-    background: #999900;
+    background: red;
+  
     
     
 }
@@ -6817,8 +6818,9 @@ div a{
     height: 40px;
     color: white; 
 }
-.lftclm:hover{
-    background: white;
+.lftclm{
+    background: #009999;
+    height: 700px;
 }
 
 
