@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<h1> Loop Example</h1>
+<script language="javascript">
+var sum = 0;
+var startingNumber = 1;
+var endingnumber =10;
+while(startingNumber<=endingnumber){
+	sum+=startingNumber;
+	startingNumber ++;
+	}
+	document.write("Using While Loop: "+sum);
+	document.write("<hr>");
+	var sum2 = 0;
+	var sn = 0;
+	var en = 10;
+	for(sn; sn<=en;sn++){
+		sum2 +=sn;
+	}
+	document.write("Using While Loop: "+sum2);
+	document.write("<hr>");
+	var sum3 = 0;
+	var fn = 0;
+	var ln = 10;
+	do{
+		 sum3 +=fn;
+	     fn++;
+	}while(fn<=ln);
+	document.write("Using While Loop: "+sum3);
+	
+	document.write("<hr>");
+	var numbers =[1,2,3,4,5,6,7,8,9,10];
+	var sum4 = 0;
+	for (var i in numbers){
+		sum4 +=numbers[i];
+		}
+		document.write("Using While Loop: "+sum4);
+		
+		document.write("<hr>");
+	var students =['Zakir','jubaer','arefin','mehdi'];
+	
+	for (var i in students){
+		if (students[i] == 'Zakir' || (students[i] == 'jubaer'){
+			continue;
+		}
+		document.write("Using While Loop: "+sum4);
+	}
+	
+	
+</script>
+
+
+
+</body>
+</html>

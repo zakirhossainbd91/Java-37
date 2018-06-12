@@ -6784,8 +6784,12 @@ button.close {
     width: 90%;
     height: 400px;
     margin-left: 45pt;   
-    background: #cccccc;
+    background: #eea236;
     
+}
+.lftclm{
+    background: #ccccff;
+    height: 700px;
 }
 div a:hover{
     background: red;
@@ -6818,9 +6822,6 @@ div a{
     height: 40px;
     color: white; 
 }
-.lftclm{
-    background: #009999;
-    height: 700px;
-}
+
 
 
