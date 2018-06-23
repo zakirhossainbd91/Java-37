@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body bgcolor="#FFCC99">
+<script language="javascript">
+var teamJ="";
+var teamMember=0;
+team:
+for(var outCount=1;outCount<3;outCount++){
+	jersey:
+	for(var inCount=20;inCount<35;inCount++){
+		if(inCount==22||inCount==29||inCount==30)
+		{
+			continue jersey;
+		}
+		if(teamMember==12){
+			teamMember=0;
+		}
+		teamMember++;
+		teamJ+="team"+outCount+"member"+teamMember+"JerseyNumber"+inCount+
+		"<br>";
+	}
+}
+document.write(teamJ);
+</script>
+</body>
+</html>
