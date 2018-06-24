@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<div style="width:100%; height:450px; margin:0 auto; background:#C60">
+<form action="display.html" style="padding:7px">
+<label>ID:</label>
+<input type="number" placeholder="Enter your ID number" required/><br>
+<label>Gender:</label>
+Male:<input type="radio" name="gender" value="male" />
+Female:<input type="radio" name="gender" value="female"/><br>
+<label>Round:</label>
+<Select name="round">
+<option value="round-32">Select Round Name</option>
+<option value="round-33">Round-33</option>
+<option value="round-34">Round-34</option>
+<option value="round-35">Round-35</option>
+<option value="round-36">Round-36</option>
+<option value="round-37">Round-37</option>
+<option value="round-38">Round-38</option>
+</Select><br>
+<label>Computer Subject:</label>
+<input type="checkbox" name="computerSubject" value="html" />HTLM:
+<input type="checkbox" name="computerSubject" value="ppt"/>PPT:<br>
+<br><br>
+<input type="reset" value="reset"/>
+<input type="submit" value="send" onSubmit="sendFormData()"/>
+<script>
+function sendFormData(){
+var value1 = "value1";
+var value2 = "value2";
+var value3 = "value3";
+var value4 = "value4";
+var value5 = "value5";
+var queryString="?para1 ="+value1+"&para2 ="+value2+"&para3 ="+value3+"&para4 ="+value4+"&para5 ="+value5;
+window.location.href="display.html"+queryString;
+	
+}
+</script>
+
+
+
+</form>
+</div>
+</body>
+</html>
