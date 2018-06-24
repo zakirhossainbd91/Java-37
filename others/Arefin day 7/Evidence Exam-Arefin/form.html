@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Form</title>
+</head>
+
+<body>
+<div style="width:40%; background-color:#FF9; margin:0 auto;">
+<form action="display.html" style="padding:10px;">
+<label>Name</label>
+<input type="text" name="Name" required/><br/>
+<label>Gender</label>
+<input type="text" name="Gender" required/><br/>
+<label>Round</label>
+<select name="Round">
+<option>Select A Round</option>
+<option value="Round-32">Round-32</option>
+<option value="Round-33">Round-33</option>
+<option value="Round-34">Round-34</option>
+<option value="Round-35">Round-35</option>
+<option value="Round-36">Round-36</option>
+<option value="Round-37">Round-37</option>
+<option value="Round-38">Round-38</option>
+<option value="Round-39">Round-39</option>
+</select><br/>
+<label>Completed Sub:</label>
+<input type="checkbox" name="Completed Sub" value="HTML"/>HTML
+<input type="checkbox" name="Completed Sub" value="PPT"/>PPT
+<input type="checkbox" name="Completed Sub" value="JS"/>JS
+<br/><br/>
+<input type="submit" value="Submit" onSubmit="sendFormData()"/>
+<input type="reset" value="Clear Form"/>
+</form>
+</div>
+
+<script>
+function sendFormData(){
+	var value1 = "value1";
+	var value2 = "value2";
+	var value3 = "value3";
+	var value4 = "value4";
+	var quaryString = "?para1= " + value1 + "&para2= " + value2 + "&para3= " + value3 + "&para4= " + value4;
+	window.location.href = "display.html" + quaryString;
+	}
+</script>
+</body>
+</html>

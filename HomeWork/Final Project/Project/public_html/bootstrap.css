@@ -6773,7 +6773,7 @@ button.close {
     width: 90%;
     margin-left: 45pt;
     height: 25px;
-    background: #D2BDA8;
+    background: #666666;
     text-align: center;
     color: red;
 }
@@ -6783,9 +6783,9 @@ button.close {
 }
 .row4{
     width: 90%;
-    height: 400px;
+    height: 500px;
     margin-left: 45pt;   
-    background: #eea236;
+    background: #ffcccc
     
 }
 .lftclm{
