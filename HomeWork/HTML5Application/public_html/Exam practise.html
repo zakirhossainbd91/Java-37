@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>practise</title>
+</head>
+
+<body>
+<div style="width:500px; margin:0 auto; background:#F66">
+
+<form action="display.html" style="padding: 7px;">
+<label>ID:</label>
+<input type="number" name="ID" required 
+/>
+<label>First Name:</label>
+<input type="text" name="FirstName" placeholder="Enter Your First Name"/><br>
+<label>Last Name:</label>
+<input type="text" name="LastName" placeholder="Enter Your Last Name"/><br>
+<label>Father's Name:</label>
+<input type="text" name="Fathe Name" placeholder="Enter Your Father's Name"/><br>
+<label>Motrher's Name:</label>
+<input type="text" name="MotherName" placeholder="Enter Your Mother's Name"/><br>
+<label>Date of Birth:</label>
+<input type="Date" name="Date of Birth" placeholder="Enter Your DOB"/><br>
+<label>Gender:</label>
+Male:<input type="radio" name="gender" value="male"/>
+Female:<input type="radio" name="gender" value="female"/><br>
+<label>Hobby:</label>
+Reading:<input type="checkbox" name="hobby" value="Reading"/>
+Coding:<input type="checkbox" name="hobby" value="coding"/>
+Playing:<input type="checkbox" name="hobby" value="playing"/><br>
+<label>Round:</label>
+<select name="round">
+<option>Select Round</option>
+<option value="round-36">Round-36</option>
+<option value="round-37">Round-37</option>
+<option value="round-38">Round-38</option>
+</select><br>
+<input type="reset" value="reset"/>
+<input type="submit" value="send" onSubmit="sendFormData()"/>
+
+</form>
+</div>
+<script>
+function sendFormData (){
+var value1="value1";
+var value2="value2";
+var value3="value3";
+var value4="value4";
+var value5="value5";
+var queryString="?paral=" +value1+"&para2="+value2+"&para3="+value3+"&para4="+value4+"&para5="+value5;
+window.location.href="display.html"+queryString;
+
+}
+</script>
+
+</body>
+</html>
