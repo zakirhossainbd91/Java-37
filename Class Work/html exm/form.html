@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<div style="width:400px; height:300px; background-color:#C30; margin:0 auto;">
+<form action="output.html">
+<label>ID:</label>
+<input type="number" name="id" placeholder="Enter your ID" required><br>
+<label>First Name</label>
+<input type="text" name="firstname" placeholder="Enter Your First Name"><br>
+<label>Father Name</label>
+<input type="text" name="fathername" placeholder="Enter Your father Name"><br>
+<label>Gender</label>
+Male:<input type="radio" value="male">
+Female:<input type="radio" value="female"><br>
+
+<label>Round</label>
+<select>
+<option>Round-32</option>
+<option>Round-33</option>
+<option>Round-34</option>
+<option>Round-35</option>
+<option>Round-36</option>
+</select><br>
+<label>SubJect</label>
+Java:<input type="checkbox" value="checkbox">
+PPT:<input type="checkbox" value="PPT"><br><br>
+<input type="reset" value="reset">
+<input type="submit" value="submit">
+</form>
+<script>
+function sendFormData(){
+var value1="value1";
+var value2="value2";
+var value3="value3";
+var value4="value4";
+var value5="value5";
+var queryString="?paral="+value1+"&para2= "+value2+"&para3="+value3+"&para4="+value4+"&para5="+value5;
+window.location.href="output.html"+queryString;
+}
+</script>
+</body>
+</html>

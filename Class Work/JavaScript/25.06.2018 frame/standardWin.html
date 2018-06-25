@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body bgcolor="#CC9966">
+<script>
+function GetStanWin(){
+open ( "sampWin.html","sampWin1","toolbar=no,width=200,height=150")
+//width
+}
+function movRel(){
+	moveBy(20,20)
+}
+function moveAbs(){
+	moveTo(20,20)
+}
+function shrink(){
+	resizeBy(15,10)
+}
+function shrivel(){
+	resizeTo(400,300)
+}
+
+</script>
+<center>
+<h2>Window Controal</h2>
+<form>
+<input type="button" name="openBut" value="Click Open new Window" onClick="GetStanWin()"><p>
+<input type="button" name="mvbyBut" value="Click to move reletive" onClick="moveRel()"><p>
+<input type="button" name="mvtoBut" value="Click to move absulate" onClick="moveAbs()"><p>
+<input type="button" name="shrinkBut" value="Click to change relative" onClick="shrink()"><p>
+<input type="button" name="shrivelBut" value="Click to change absulate size" onClick="shrivel()"><p>
+
+</form>
+
+</center>
+</body>
+</html>
