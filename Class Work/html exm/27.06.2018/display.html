@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<div style="width:400px; height:300px; background-color:#399; margin:0 auto;">
+<form action="output.html">
+<label>User Name:</label>
+<input type="text" name="userName" placeholder="Enter Your User Name"><br>
+<label>Full Name:</label>
+<input type="text" name="fullName" placeholder="Enter Your Full Name"><br>
+<label>Password:</label>
+<input type="password" name="password" placeholder="Enter Your Password"><br>
+<label>Re-type Password:</label>
+<input type="password" name="password" placeholder="Enter Your Re-Type Password"><br>
+<label>Gender:</label>
+Male:<input type="radio" name="male" value="male">
+Female:<input type="radio" name="female" value="female"><br>
+<label>Language:</label>
+<select>
+<option> English</option>
+<option> Arabic</option>
+<option> Bangla</option>
+<option> Turkie</option>
+</select><br><br>
+<label>Comment:</label>
+<textarea rows="4"></textarea><br><br>
+<input type="reset" value="reset">
+<input type="submit" value="submit">
+</form>
+</div>
+<script>
+function sendFormData(){
+var value1="value1";
+var value2="value2";
+var value3="value3";
+var value4="value4";
+var value5="value5";
+var value6="value6";
+var value6="value7";
+var queryString="?paral="+value1+"&para2= "+value2+"&para3="+value3+"&para4="+value4+"&para5="+value5+"&para6"+value6+"&para7"+value7;
+window.location.href="output.html"+queryString;
+}
+
+</script>
+</body>
+</html>
