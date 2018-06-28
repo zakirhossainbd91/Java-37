@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<div style="width:500px; height:400px; background-color:#F9F;">
+<form>
+<label>user Name:</label>
+<input type="text" name="userName" placeholder="Enter your USer Name"><br>
+<label>Full Name:</label>
+<input type="text" name="fullName" placeholder="Enter Full Name"><br>
+<label>user Name:</label>
+<input type="password" name="password" placeholder="Enter password"><br>
+<label>Re-Type Password:</label>
+<input type="password" name="password" placeholder="Enter Re-Type password"><br>
+<label>Gender:</label>
+Male:<input type="radio" value="male">
+Female:<input type="radio" value="Female"><br>
+<label>Complete Subject:</label>
+PPT:<input type="checkbox" name="ppt" value="ppt">
+Java:<input type="checkbox" name="java" value="java">
+C++:<input type="checkbox" name="c++" value="c++"><br>
+<label>Language:</label>
+<select>
+<option>English</option>
+<option>Bangla</option>
+<option>Arabir</option>
+<option>Urdu</option>
+</select><br>
+<label>Comment:</label>
+<textarea rows="3"></textarea><br>
+<input type="reset" value="reset">
+<input type="submit" value="submit">
+</form>
+</div>
+
+<script>
+function sendFormData(){
+var value1="value1";
+var value2="value2";
+var value3="value3";
+var value4="value4";
+var value5="value5";
+var value6="value6";
+var value6="value7";
+var queryString="?paral="+value1+"&para2= "+value2+"&para3="+value3+"&para4="+value4+"&para5="+value5+"&para6"+value6+"&para7"+value7;
+window.location.href="output.html"+queryString;
+}
+</script>
+<div style="width:500px; margin: 0 auto; background: #ffff99">
+        <script>
+            var queryString = decodeURIComponent(window.location.search);
+            queryString = queryString.substring(1);
+            var queries = queryString.split("&");
+            for (var i = 0; i < queries.length; i++)
+            {
+            document.write(queries[i] + "<br>");
+            }
+		
+            </script>
+         </div>
+
+</body>
+</html>
